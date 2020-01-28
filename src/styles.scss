@@ -1,0 +1,20 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import "reset";
+
+/* Você pode adicionar estilos globais aqui */
+
+body,
+html {
+    height: 100%;
+}
+.container {
+    overflow: hidden;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+// adding a comment empty

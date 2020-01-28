@@ -1,0 +1,11 @@
+<h1>Top 10</h1>
+
+<ul>
+    <li class="list shadow-sm my-3" *ngFor="let item of list">
+        <a class="list-item">
+            <span class="detail text-white">{{item.id}}</span>
+            <span class="cursor mx-2">{{item.name}}</span>
+            <fa-icon class="cursor trash float-right" [icon]="['fas', 'trash']"></fa-icon>
+        </a>
+    </li>
+</ul>

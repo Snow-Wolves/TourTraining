@@ -1,0 +1,27 @@
+.list {
+    list-style-type: none;
+    max-width: 10em;
+}
+
+.list-item {
+    display: inline-block;
+    width: 100%;
+    line-height: 1;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+
+.detail {
+    display: inline-block;
+    line-height: 1;
+    background-color: #bb4646;
+    padding: 0.5em;
+    border-radius: 4px 0 0 4px;
+}
+
+.trash {
+    display: inline-block;
+    line-height: 1;
+    padding: 0.5em;
+    border-radius: 0 4px 4px 0;
+}
